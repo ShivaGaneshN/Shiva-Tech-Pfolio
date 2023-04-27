@@ -1,11 +1,24 @@
-*{
-
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#home{
-
+li {
+    list-style: none;
 }
 
-.home{
+a,
+img,
+span,
+button,
+ion-icon {
+    display: block;
+}
 
+a{
+    color: inherit;
+    text-decoration: none;
 }
